@@ -59,6 +59,7 @@ const Form = ({
                             id="outlined-basic"
                             color="info"
                             variant="outlined"
+                            sx={{ input: { color: 'black' } }}
                             {...register("title", { required: true })}
                         />
                     </FormControl>
@@ -142,6 +143,7 @@ const Form = ({
                                 color="info"
                                 type="number"
                                 variant="outlined"
+                                sx={{ input: { color: 'black' } }}
                                 {...register("price", { required: true })}
                             />
                         </FormControl>
@@ -164,6 +166,7 @@ const Form = ({
                             id="outlined-basic"
                             color="info"
                             variant="outlined"
+                            sx={{ input: { color: 'black' } }}
                             {...register("location", { required: true })}
                         />
                     </FormControl>
