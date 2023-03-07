@@ -13,6 +13,7 @@ import {
 
 import { FormProps } from "interfaces/common";
 import CustomButton from "./CustomButton";
+import '../../app.css';
 
 const Form = ({
     type,
@@ -47,6 +48,7 @@ const Form = ({
                                 margin: "10px 0",
                                 fontSize: 16,
                                 color: "#11142d",
+                                borderColor: 'primary.main'
                             }}
                         >
                             Enter property name

@@ -1,0 +1,11 @@
+.MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0,0,0,0.23) !important;
+  }
+  
+  .MuiFilledInput-root {
+    border-bottom: 1px solid rgba(0,0,0,0.23) !important;
+  }
+  
+  .MuiInput-root {
+    border-bottom: 1px solid rgba(0,0,0,0.23) !important;
+  }
