@@ -98,7 +98,7 @@ const AgentCard = ({
                     />
                     <InfoBar
                         icon={<Place sx={{ color: "#808191" }} />}
-                        name="London"
+                        name="Boca Raton, FL"
                     />
                     <InfoBar
                         icon={<Phone sx={{ color: "#808191" }} />}

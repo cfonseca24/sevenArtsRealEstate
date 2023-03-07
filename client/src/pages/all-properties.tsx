@@ -58,7 +58,7 @@ const AllProperties = () => {
         <Box>
             <Box mt="20px" sx={{ display: "flex", flexWrap: "wrap", gap: 3 }}>
                 <Stack direction="column" width="100%">
-                    <Typography fontSize={25} fontWeight={700} color="#11142d">
+                    <Typography fontSize={30} fontWeight={700} color="#FAF9F6">
                         {!allProperties.length
                             ? "There are no properties"
                             : "All Properties"}
@@ -82,7 +82,7 @@ const AllProperties = () => {
                                     currentPrice === "asc" ? "↑" : "↓"
                                 }`}
                                 handleClick={() => toggleSort("price")}
-                                backgroundColor="#475be8"
+                                backgroundColor="#67cb57"
                                 color="#fcfcfc"
                             />
                             <TextField
@@ -155,7 +155,7 @@ const AllProperties = () => {
                 <CustomButton
                     title="Add Property"
                     handleClick={() => navigate("/properties/create")}
-                    backgroundColor="#475be8"
+                    backgroundColor="#67cb57"
                     color="#fcfcfc"
                     icon={<Add />}
                 />
@@ -179,7 +179,7 @@ const AllProperties = () => {
                     <CustomButton
                         title="Previous"
                         handleClick={() => setCurrent((prev) => prev - 1)}
-                        backgroundColor="#475be8"
+                        backgroundColor="#67cb57"
                         color="#fcfcfc"
                         disabled={!(current > 1)}
                     />
@@ -196,7 +196,7 @@ const AllProperties = () => {
                     <CustomButton
                         title="Next"
                         handleClick={() => setCurrent((prev) => prev + 1)}
-                        backgroundColor="#475be8"
+                        backgroundColor="#67cb57"
                         color="#fcfcfc"
                         disabled={current === pageCount}
                     />
