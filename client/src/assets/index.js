@@ -1,4 +1,6 @@
-import logo from "./logo.svg";
-import yariga from "./yariga.svg";
 
-export { logo, yariga };
+import logoOne from "./logoOne.svg";
+import artsRe from "./artsRe.svg";
+
+
+export { logoOne, artsRe };

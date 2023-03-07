@@ -23,6 +23,7 @@ const PropertyCard = ({
             component={Link}
             to={`/properties/show/${id}`}
             sx={{
+                backgroundColor:'#F5F5F5',
                 maxWidth: "330px",
                 padding: "10px",
                 "&:hover": {
@@ -38,7 +39,7 @@ const PropertyCard = ({
                 height={210}
                 image={photo}
                 alt="card image"
-                sx={{ borderRadius: "10px" }}
+                sx={{ borderRadius: "10px"}}
             />
             <CardContent
                 sx={{
