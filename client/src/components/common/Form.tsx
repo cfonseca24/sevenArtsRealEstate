@@ -13,6 +13,7 @@ import {
 
 import { FormProps } from "interfaces/common";
 import CustomButton from "./CustomButton";
+import '../../app.css';
 
 const Form = ({
     type,
@@ -47,6 +48,7 @@ const Form = ({
                                 margin: "10px 0",
                                 fontSize: 16,
                                 color: "#11142d",
+                                borderColor: 'primary.main'
                             }}
                         >
                             Enter property name
@@ -57,6 +59,7 @@ const Form = ({
                             id="outlined-basic"
                             color="info"
                             variant="outlined"
+                            sx={{ input: { color: 'black' } }}
                             {...register("title", { required: true })}
                         />
                     </FormControl>
@@ -140,6 +143,7 @@ const Form = ({
                                 color="info"
                                 type="number"
                                 variant="outlined"
+                                sx={{ input: { color: 'black' } }}
                                 {...register("price", { required: true })}
                             />
                         </FormControl>
@@ -162,6 +166,7 @@ const Form = ({
                             id="outlined-basic"
                             color="info"
                             variant="outlined"
+                            sx={{ input: { color: 'black' } }}
                             {...register("location", { required: true })}
                         />
                     </FormControl>
